@@ -1,0 +1,115 @@
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe.config
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.g.cs
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.g.cs
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\App.g.cs
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.lref
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.baml
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.baml
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.g.resources
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.Properties.Resources.resources
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.GenerateResource.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.exe
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CopyComplete
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.g.cs
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.baml
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.g.cs
+C:\Users\nicol\source\repos\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.baml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe.config
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\App.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.lref
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.baml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.baml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.baml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.baml
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.g.resources
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.Properties.Resources.resources
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CopyComplete
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.exe
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Eliminar\eliminarMedicamento.g.cs
+C:\Users\nicol\Desktop\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Eliminar\eliminarMedicamento.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.exe
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\RegistroFarmacia.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\DatosMedicamentos.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Entidades.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\Negocio.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\EntityFramework.SqlServer.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csprojAssemblyReference.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Eliminar\eliminarMedicamento.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\App.g.cs
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia_MarkupCompile.lref
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\MainWindow.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Eliminar\eliminarMedicamento.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Medicamento\AgregarMedicamento.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Modificar\ModificarMedicamento.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\Vista\Mostrar\MostrarMedicamento.baml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.g.resources
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.Properties.Resources.resources
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.GenerateResource.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CoreCompileInputs.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.csproj.CopyComplete
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.exe
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\RegistroFarmacia.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\MaterialDesignColors.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\MaterialDesignColors.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\RegistroFarmacia\obj\Debug\App.baml

@@ -1,0 +1,58 @@
+﻿<Window x:Class="RegistroFarmacia.Vista.Medicamento.AgregarMedicamento"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroFarmacia.Vista.Medicamento"
+        mc:Ignorable="d"
+        Title="AgregarMedicamento" Height="500" Width="623" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" MouseLeftButtonDown="moverAgregar">
+            <materialDesign:ColorZone Mode="PrimaryLight">
+                <StackPanel HorizontalAlignment="Right">
+                    <Button Width="30" Height="30" materialDesign:ShadowAssist.ShadowEdges="All" Padding="0" Click="Button_Click">
+                        <materialDesign:PackIcon Kind="WindowClose"/>
+                    </Button>                    
+                </StackPanel>               
+            </materialDesign:ColorZone>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="WhiteSmoke">
+            <TextBlock Text="Agregar Medicamento" FontSize="35" FontStyle="Italic" Foreground="MediumPurple" />
+        </Grid>
+
+        <Grid Grid.Row="2" Margin="0,10,0,0" HorizontalAlignment="Left" Width="623" Height="410" VerticalAlignment="Top" RenderTransformOrigin="0.505,0.525">
+            <Label x:Name="lblSerie" Content="Serie" HorizontalAlignment="Left" Height="32" Margin="31,25,0,0" VerticalAlignment="Top" Width="81" />
+            <TextBox x:Name="txtSerie" HorizontalAlignment="Left" Height="23" Margin="145,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" TabIndex="0"/>
+            <Label x:Name="lblNombre" Content="Nombre" HorizontalAlignment="Left" Height="33" Margin="28,67,0,0" VerticalAlignment="Top" Width="84" />
+            <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="145,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" TabIndex="1"/>
+            <Label x:Name="lblComponentes" Content="Componentes" HorizontalAlignment="Left" Height="33" Margin="28,241,0,0" VerticalAlignment="Top" Width="101"/>
+            <TextBox x:Name="txtComponentes" HorizontalAlignment="Left" Height="65" Margin="134,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" TabIndex="7"/>
+            <Label x:Name="lblActivo" Content="Principio Activo" HorizontalAlignment="Left" Height="33" Margin="309,24,0,0" VerticalAlignment="Top" Width="99"/>
+            <TextBox x:Name="txtActivo" HorizontalAlignment="Left" Height="23" Margin="437,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" TabIndex="2"/>
+            <Label x:Name="lblDosis" Content="Dosis" HorizontalAlignment="Left" Height="33" Margin="309,67,0,0" VerticalAlignment="Top" Width="84"/>
+            <TextBox x:Name="txtDosis" HorizontalAlignment="Left" Height="23" Margin="437,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" TabIndex="3"/>
+            <Label x:Name="lblElaboracion" Content="Fecha Elaboración" HorizontalAlignment="Left" Height="28" Margin="28,126,0,0" VerticalAlignment="Top" Width="134"/>
+            <DatePicker x:Name="dpElaboracion" HorizontalAlignment="Left" Height="28" Margin="132,154,0,0" VerticalAlignment="Top" Width="144" TabIndex="4"/>
+            <Label x:Name="lblVencimiento" Content="Fecha Vencimiento" HorizontalAlignment="Left" Height="28" Margin="309,126,0,0" VerticalAlignment="Top" Width="132"/>
+            <DatePicker x:Name="dpVencimiento" HorizontalAlignment="Left" Height="28" Margin="416,159,0,0" VerticalAlignment="Top" Width="144" TabIndex="5"/>
+            <Label x:Name="lblLaboratorio" Content="Laboratorio" HorizontalAlignment="Left" Height="28" Margin="28,192,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.767,0.093"/>
+            <ComboBox x:Name="cmbLaboratorio" HorizontalAlignment="Left" Height="25" Margin="122,195,0,0" VerticalAlignment="Top" Width="146" TabIndex="6"/>
+            <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Height="31" Margin="437,329,0,0" VerticalAlignment="Top" Width="84" Click="btnGuardar_Click"/>
+            <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Height="31" Margin="299,329,0,0" VerticalAlignment="Top" Width="94" Click="btnCancelar_Click"/>
+            <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Height="31" Margin="165,329,0,0" VerticalAlignment="Top" Width="103" Click="btnModificar_Click"/>
+
+        </Grid>
+    </Grid>
+</Window>

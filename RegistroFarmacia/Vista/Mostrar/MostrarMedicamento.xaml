@@ -1,0 +1,72 @@
+﻿<Window x:Class="RegistroFarmacia.Vista.Mostrar.MostrarMedicamento"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroFarmacia.Vista.Mostrar"
+        mc:Ignorable="d"
+        Title="MostrarMedicamento" Height="436" Width="800" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,10,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="687*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0.4" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <materialDesign:ColorZone Mode="PrimaryLight" Height="30" Margin="0,-10,0,0">
+                <StackPanel HorizontalAlignment="Right">
+                    <Button Width="30" Height="30" materialDesign:ShadowAssist.ShadowEdges="All" Padding="0" Click="Button_Click">
+                        <materialDesign:PackIcon Kind="WindowClose"/>
+                    </Button>
+                </StackPanel>
+            </materialDesign:ColorZone>
+        </Grid>
+        <Grid Background="WhiteSmoke" Grid.ColumnSpan="2" Margin="0,30,0,345.4" Grid.RowSpan="3">
+            <TextBlock Text="Lista de Medicamentos" FontSize="35" FontStyle="Italic" Foreground="MediumPurple" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0.2,0,0.4">
+            <DataGrid x:Name="dgMostrarMedicamento" AutoGenerateColumns="False" RenderTransformOrigin="0.504,0.494" HorizontalAlignment="Left" Width="790" Margin="3,3,0,-2.2">
+                <DataGrid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.146"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </DataGrid.RenderTransform>
+                <DataGrid.LayoutTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </DataGrid.LayoutTransform>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Serie" Binding="{Binding serie}"/>
+                    <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}"/>
+                    <DataGridTextColumn Header="Principio Activo" Binding="{Binding principioActivo}"/>
+                    <DataGridTextColumn Header="Dosis" Binding="{Binding dosis}"/>
+                    <DataGridTextColumn Header="Fecha Elaboración" Binding="{Binding fechaElaboracion}"/>
+                    <DataGridTextColumn Header="Fecha Vencimiento" Binding="{Binding fechaVencimiento}"/>
+                    <DataGridTextColumn Header="Laboratorio" Binding="{Binding laboratorio1.nombre}"/>
+                    <DataGridTextColumn Header="Componentes" Binding="{Binding componentes}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Height="29" Margin="447,295,0,0" VerticalAlignment="Top" Width="99" Click="btnEliminar_Click"/>
+            <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Height="29" Margin="335,295,0,0" VerticalAlignment="Top" Width="107" Click="btnActualizar_Click"/>
+            <Button x:Name="btnSalir" Content="Cancelar" HorizontalAlignment="Left" Height="29" Margin="551,295,0,0" VerticalAlignment="Top" Width="101" Click="btnSalir_Click"/>
+
+        </Grid>
+    </Grid>
+</Window>

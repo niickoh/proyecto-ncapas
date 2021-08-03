@@ -1,0 +1,36 @@
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\Entidades.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\obj\Debug\Entidades.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Entidades\obj\Debug\Entidades.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\Entidades.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\obj\Debug\Entidades.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Entidades\obj\Debug\Entidades.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\Entidades.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\Entidades.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\obj\Debug\Entidades.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Entidades\obj\Debug\Entidades.pdb

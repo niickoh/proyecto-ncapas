@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FarmaciaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="laboratorio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="medicamento" Relationship="Self.medicamento_fk0" FromRole="laboratorio" ToRole="medicamento" />
+  </EntityType>
+  <EntityType Name="medicamento">
+    <Key>
+      <PropertyRef Name="serie" />
+    </Key>
+    <Property Name="serie" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="componentes" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="principioActivo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dosis" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaElaboracion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fechaVencimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="laboratorio" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="laboratorio1" Relationship="Self.medicamento_fk0" FromRole="medicamento" ToRole="laboratorio" />
+  </EntityType>
+  <Association Name="medicamento_fk0">
+    <End Role="laboratorio" Type="Self.laboratorio" Multiplicity="1" />
+    <End Role="medicamento" Type="Self.medicamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="laboratorio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="medicamento">
+        <PropertyRef Name="laboratorio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FarmaciaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="laboratorio" EntityType="Self.laboratorio" />
+    <EntitySet Name="medicamento" EntityType="Self.medicamento" />
+    <AssociationSet Name="medicamento_fk0" Association="Self.medicamento_fk0">
+      <End Role="laboratorio" EntitySet="laboratorio" />
+      <End Role="medicamento" EntitySet="medicamento" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

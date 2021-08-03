@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FarmaciaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="laboratorio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="medicamento">
+          <Key>
+            <PropertyRef Name="serie" />
+          </Key>
+          <Property Name="serie" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="componentes" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="principioActivo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="dosis" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="fechaElaboracion" Type="date" Nullable="false" />
+          <Property Name="fechaVencimiento" Type="date" Nullable="false" />
+          <Property Name="laboratorio" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="medicamento_fk0">
+          <End Role="laboratorio" Type="Self.laboratorio" Multiplicity="1" />
+          <End Role="medicamento" Type="Self.medicamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="laboratorio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="medicamento">
+              <PropertyRef Name="laboratorio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FarmaciaModelStoreContainer">
+          <EntitySet Name="laboratorio" EntityType="Self.laboratorio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="medicamento" EntityType="Self.medicamento" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="medicamento_fk0" Association="Self.medicamento_fk0">
+            <End Role="laboratorio" EntitySet="laboratorio" />
+            <End Role="medicamento" EntitySet="medicamento" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FarmaciaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="laboratorio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="medicamento" Relationship="Self.medicamento_fk0" FromRole="laboratorio" ToRole="medicamento" />
+        </EntityType>
+        <EntityType Name="medicamento">
+          <Key>
+            <PropertyRef Name="serie" />
+          </Key>
+          <Property Name="serie" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="componentes" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="principioActivo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="dosis" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="fechaElaboracion" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="fechaVencimiento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="laboratorio" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="laboratorio1" Relationship="Self.medicamento_fk0" FromRole="medicamento" ToRole="laboratorio" />
+        </EntityType>
+        <Association Name="medicamento_fk0">
+          <End Role="laboratorio" Type="Self.laboratorio" Multiplicity="1" />
+          <End Role="medicamento" Type="Self.medicamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="laboratorio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="medicamento">
+              <PropertyRef Name="laboratorio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FarmaciaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="laboratorio" EntityType="Self.laboratorio" />
+          <EntitySet Name="medicamento" EntityType="Self.medicamento" />
+          <AssociationSet Name="medicamento_fk0" Association="Self.medicamento_fk0">
+            <End Role="laboratorio" EntitySet="laboratorio" />
+            <End Role="medicamento" EntitySet="medicamento" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FarmaciaModelStoreContainer" CdmEntityContainer="FarmaciaEntities">
+          <EntitySetMapping Name="laboratorio">
+            <EntityTypeMapping TypeName="FarmaciaModel.laboratorio">
+              <MappingFragment StoreEntitySet="laboratorio">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="medicamento">
+            <EntityTypeMapping TypeName="FarmaciaModel.medicamento">
+              <MappingFragment StoreEntitySet="medicamento">
+                <ScalarProperty Name="serie" ColumnName="serie" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="componentes" ColumnName="componentes" />
+                <ScalarProperty Name="principioActivo" ColumnName="principioActivo" />
+                <ScalarProperty Name="dosis" ColumnName="dosis" />
+                <ScalarProperty Name="fechaElaboracion" ColumnName="fechaElaboracion" />
+                <ScalarProperty Name="fechaVencimiento" ColumnName="fechaVencimiento" />
+                <ScalarProperty Name="laboratorio" ColumnName="laboratorio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

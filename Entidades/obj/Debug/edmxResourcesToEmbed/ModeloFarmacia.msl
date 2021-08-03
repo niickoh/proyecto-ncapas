@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FarmaciaModelStoreContainer" CdmEntityContainer="FarmaciaEntities">
+    <EntitySetMapping Name="laboratorio">
+      <EntityTypeMapping TypeName="FarmaciaModel.laboratorio">
+        <MappingFragment StoreEntitySet="laboratorio">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="medicamento">
+      <EntityTypeMapping TypeName="FarmaciaModel.medicamento">
+        <MappingFragment StoreEntitySet="medicamento">
+          <ScalarProperty Name="serie" ColumnName="serie" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="componentes" ColumnName="componentes" />
+          <ScalarProperty Name="principioActivo" ColumnName="principioActivo" />
+          <ScalarProperty Name="dosis" ColumnName="dosis" />
+          <ScalarProperty Name="fechaElaboracion" ColumnName="fechaElaboracion" />
+          <ScalarProperty Name="fechaVencimiento" ColumnName="fechaVencimiento" />
+          <ScalarProperty Name="laboratorio" ColumnName="laboratorio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

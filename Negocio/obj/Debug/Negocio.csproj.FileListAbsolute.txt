@@ -1,0 +1,54 @@
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Negocio.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Entidades.pdb
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\obj\Debug\Negocio.dll
+C:\Users\nicol\source\repos\RegistroFarmacia\Negocio\obj\Debug\Negocio.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Negocio.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Entidades.pdb
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\obj\Debug\Negocio.dll
+C:\Users\nicol\Desktop\RegistroFarmacia\Negocio\obj\Debug\Negocio.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Negocio.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Negocio.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\DatosMedicamentos.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Entidades.pdb
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\Entidades.dll.config
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\obj\Debug\Negocio.dll
+D:\DUOC\2do año\Desarrollo de software escritorio y Gestion\RegistroFarmacia\Negocio\obj\Debug\Negocio.pdb
